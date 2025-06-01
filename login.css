@@ -1,0 +1,69 @@
+*{
+  color:#73d2de ;
+}
+
+body{
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h1{
+  color: #a9fefc;
+  text-shadow: 0px 0px 10px;
+  margin-top:300px;
+  font-family: Times New Roman;
+}
+
+.form-class{
+      text-align: left;
+    }
+    
+    form{
+      margin: 20px auto;
+      padding: 30px 30px;
+      max-width: 320px;
+    }
+    
+    fieldset{
+      background-color:rgba(0, 0, 0, 0.5);
+      box-shadow: insert -5px -5px rgba(0, 0, 0, 0.5);
+      border: solid 1px;
+      border-color: black;
+      border-radius: 5px;
+    }
+    
+    .form-class input{
+      width: 97%;
+      padding: 4px;
+    }
+    
+    .form-class input[type="radio"]{
+      display: inline-block;
+      width: auto;
+      width: auto;
+      accent-color: #73d2de;
+    }
+    
+    button{
+      background-color: #73d2de;
+      color: black;
+      width: 98%;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    
+    select{
+      width: 97%;
+      padding: 4px;
+    }
+    
+    input,select{
+      color: black;
+      outline-color: black;
+      outline-style: none;
+    }
+    
+    
